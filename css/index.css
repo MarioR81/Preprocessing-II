@@ -174,6 +174,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .titleNav nav {
   width: 47%;
@@ -199,8 +200,6 @@ img {
 }
 .home {
   /*   Main Header   */
-  width: 100%;
-  border-bottom: 2px dashed silver;
 }
 .home .content-section {
   margin: 30px 0;
@@ -253,4 +252,16 @@ img {
 }
 .home .headCont .headImg {
   padding-bottom: 3%;
+}
+.home .btn {
+  display: block;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+  width: 200px;
+  height: 35px;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 3.8%;
 }
