@@ -1,1 +1,27 @@
 // Navigation Styles here
+    .titleNav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px dashed @navigation-border;
+      
+                nav{
+                width: 47%;
+                /*border: 1px solid blue;*/
+                display: flex;
+                justify-content: space-evenly;
+                @media @mobile{
+                    width: 100%;
+                }
+            }
+            nav a{
+                text-decoration: none;
+                color: black;
+                font-size: 1.7rem;
+            }
+            @media @mobile {
+                height: 8.5rem;
+                flex-direction: column;
+                padding-top: 2.5%;
+            }
+        }   
